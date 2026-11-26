@@ -9,7 +9,7 @@ Instala las [dependencias para tu distribución](../../README.md#requisitos). La
 ## 2. Opción A: clonar el repositorio final
 
 ```bash
-git clone https://github.com/KengySamir27/so-xv6-afinidad.git
+git clone https://github.com/Jefferson-Conde/so-xv6-afinidad.git
 cd so-xv6-afinidad
 make qemu CPUS=4 TOOLPREFIX=riscv64-linux-gnu-
 ```

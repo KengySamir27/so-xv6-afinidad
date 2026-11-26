@@ -52,14 +52,14 @@ Consulta las versiones instaladas con `qemu-system-riscv64 --version` y `riscv64
 ## Instalación
 
 ```bash
-git clone https://github.com/KengySamir27/so-xv6-afinidad.git
+git clone https://github.com/Jefferson-Conde/so-xv6-afinidad.git
 cd so-xv6-afinidad
 ```
 
-La etiqueta `base-xv6` marca el commit original de xv6-riscv. Para ver exactamente qué se cambió:
+El commit base es `9e3161a`. Para ver exactamente qué se cambió:
 
 ```bash
-git diff base-xv6 main --stat
+git diff 9e3161a main --stat
 ```
 
 ## Compilación y ejecución
